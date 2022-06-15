@@ -1,0 +1,28 @@
+:root {
+  --dark: #374151;
+  --darker: #1f2937;
+  --darkest: #111827;
+  --gray: #6b7280;
+  --light: #eee;
+  --pink: #ec4899;
+  --purple: #8b5cf6;
+}
+
+/*CSS variables can have a global or local scope.
+
+Global variables can be accessed/used through the entire document, while local variables can be used only inside the selector where it is declared.
+
+To create a variable with global scope, declare it inside the :root selector. The :root selector matches the document's root element.
+
+To create a variable with local scope, declare it inside the selector that is going to use it.*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Fira sans", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
