@@ -15,25 +15,27 @@
       <form id="new-task-form">
         <input
           type="text"
+          placeholder="What do you have planned?"
           id="new-task-input"
-          placeholder="What Do You Have Planned?"
         />
-        <input type="submit" id="new-task-submit" value="Add Todo" />
+        <input type="submit" value="Add task" id="new-task-submit" />
       </form>
     </header>
 
     <main>
-      <section classs="task-list">
+      <section class="task-list">
         <h2>Tasks</h2>
 
         <div id="tasks">
-          <div class="content">
-            <input type="text" class="text" value="My Shiny task" readonly />
-          </div>
-          <div class="actions">
-            <button class="edit">Edit</button>
-            <button class="delete">Delete</button>
-          </div>
+          <!-- <div class="task">
+            <div class="content">
+              <input type="text" class="text" value="My shiny task" readonly />
+            </div>
+            <div class="actions">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div> -->
         </div>
       </section>
     </main>
